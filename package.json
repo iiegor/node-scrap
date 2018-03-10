@@ -1,0 +1,15 @@
+{
+  "name": "node-scrap",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "Iegor Azuaga <dextrackmedia@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.1.22"
+  },
+  "scripts": {
+    "install": "neon build",
+    "dev": "neon build && node lib/index.js"
+  }
+}

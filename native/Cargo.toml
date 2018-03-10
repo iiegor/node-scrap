@@ -1,0 +1,18 @@
+[package]
+name = "apex"
+version = "0.1.0"
+authors = ["Iegor Azuaga <iegorazuaga@gmail.com>"]
+license = "MIT"
+build = "build.rs"
+
+[lib]
+name = "apex"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.1.22"
+
+[dependencies]
+neon = "0.1.22"
+scrap = "0.4"
+image = "0.14"
