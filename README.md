@@ -6,6 +6,12 @@
 
 ### scrap.screenshot()
 
+Takes a screenshot of the screen.
+
 ### scrap.startRecording()
 
 ### scrap.stopRecording()
+
+## License
+
+MIT
