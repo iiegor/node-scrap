@@ -1,12 +1,12 @@
 [package]
-name = "apex"
+name = "node-scrap"
 version = "0.1.0"
 authors = ["Iegor Azuaga <iegorazuaga@gmail.com>"]
 license = "MIT"
 build = "build.rs"
 
 [lib]
-name = "apex"
+name = "node-scrap"
 crate-type = ["dylib"]
 
 [build-dependencies]
