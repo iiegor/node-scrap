@@ -7,6 +7,7 @@ pub fn record(path: &str, fps: &str) {
     let display = Display::primary().unwrap();
     let (w, h) = (display.width(), display.height());
 
+    // TODO: Find a compatible video decoder to get rid of ffmpeg
     let child = Command::new("ffmpeg")
         .args(&[
             "-y",
