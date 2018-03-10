@@ -10,13 +10,19 @@ $ npm install node-scrap
 
 ## API
 
-### scrap.screenshot() ![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
+### scrap.screenshot()
+
+![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
 
 Takes a screenshot of the screen.
 
-### scrap.startRecording() ![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
+### scrap.startRecording()
 
-### scrap.stopRecording() ![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
+![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
+
+### scrap.stopRecording()
+
+![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
 
 ## License
 
